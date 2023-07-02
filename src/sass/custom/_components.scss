@@ -1,0 +1,288 @@
+//
+// Components
+//
+
+// Alerts
+@import "../core/alerts/alert";
+@import "../core/alerts/alert-dismissible";
+@import "../core/alerts/alert-notify";
+
+// Avatars
+@import "../core/avatars/avatar";
+@import "../core/avatars/avatar-group";
+
+// Badges
+@import "../core/badges/badge";
+@import "../core/badges/badge-circle";
+@import "../core/badges/badge-dot";
+@import "../core/badges/badge-floating";
+
+// Breadcrumbs
+@import "../core/breadcrumbs/breadcrumb";
+
+// Buttons
+@import "../core/buttons/button";
+@import "../core/buttons/button-brand";
+@import "../core/buttons/button-group";
+@import "../core/buttons/button-icon";
+
+// Cards
+@import "../core/cards/card";
+@import "../core/cards/card-animations";
+@import "../core/cards/card-blockquote";
+@import "../core/cards/card-money";
+@import "../core/cards/card-pricing";
+@import "../core/cards/card-profile";
+@import "../core/cards/card-stats";
+
+// Charts
+@import "../core/charts/chart";
+
+// Close
+@import "../core/close/close";
+
+// Collapse
+@import "../core/collapse/accordion";
+
+// Content
+@import "../core/content/main-content";
+
+// Custom forms
+@import "../core/custom-forms/custom-form";
+@import "../core/custom-forms/custom-control";
+@import "../core/custom-forms/custom-checkbox";
+@import "../core/custom-forms/custom-radio";
+@import "../core/custom-forms/custom-toggle";
+
+// Dropdowns
+@import "../core/dropdowns/dropdown";
+
+// Footers
+@import "../core/footers/footer";
+
+// Forms
+@import "../core/forms/form";
+@import "../core/forms/input-group";
+@import "../core/forms/form-extend";
+@import "../core/forms/form-validation";
+
+// Grid
+@import "../core/grid/grid";
+
+// Headers
+@import "../core/headers/header";
+
+// Icons
+@import "../core/icons/icon";
+@import "../core/icons/icon-actions";
+@import "../core/icons/icon-shape";
+
+// List groups
+@import "../core/list-groups/list-group";
+@import "../core/list-groups/list-check";
+
+// Maps
+@import "../core/maps/map";
+
+// Masks
+@import "../core/masks/mask";
+
+// Medias
+@import "../core/medias/media";
+@import "../core/medias/media-comment";
+
+// Modals
+@import "../core/modals/modal";
+
+// Navbars
+@import "../core/navbars/navbar";
+@import "../core/navbars/navbar-floating";
+@import "../core/navbars/navbar-vertical";
+@import "../core/navbars/navbar-search";
+@import "../core/navbars/navbar-dropdown";
+@import "../core/navbars/navbar-collapse";
+@import "../core/navbars/navbar-top";
+
+// Navs
+@import "../core/navs/nav";
+@import "../core/navs/nav-pills";
+
+// Paginations
+@import "../core/paginations/pagination";
+
+// Popovers
+@import "../core/popovers/popover";
+
+// Progresses
+@import "../core/progresses/progress";
+
+// Separators
+@import "../core/separators/separator";
+
+// Sections
+@import "../core/sections/nucleo-icons";
+
+// Shortcuts
+@import "../core/shortcuts/shortcut";
+
+// Tables
+@import "../core/tables/table";
+@import "../core/tables/table-actions";
+@import "../core/tables/table-sortable";
+
+// Timeline
+@import "../core/timeline/timeline";
+
+// Type
+@import "../core/type/type";
+@import "../core/type/article";
+@import "../core/type/display";
+@import "../core/type/heading";
+
+
+
+a.header-anchor {
+    font-size: .85em;
+    float: left;
+    margin-left: -.87em;
+    padding-right: .23em;
+    margin-top: .125em;
+    opacity: 0;
+}
+
+.color-swatch {
+    margin:1rem 0;
+    border-radius:.25rem;
+    background-color:#f4f5f7
+   }
+   .color-swatch:after {
+    display:table;
+    clear:both;
+    content:" "
+   }
+   .color-swatch-header {
+    position:relative;
+    height:0;
+    padding-bottom:50%;
+    border:1px solid transparent;
+    border-radius:.25rem .25rem 0 0
+   }
+   .color-swatch-header.is-light {
+    border-color:#c1c7d0
+   }
+   .color-swatch-header .pass-fail {
+    position:absolute;
+    bottom:0;
+    width:100%
+   }
+   .color-swatch-header .pass-fail-item-wrap {
+    position:relative;
+    left:50%;
+    float:left;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%)
+   }
+   .color-swatch-header .pass-fail-item-group {
+    display:inline-block;
+    padding:0 5px
+   }
+   .color-swatch-header .pass-fail-item {
+    display:inline-block;
+    float:left;
+    padding:2px;
+    text-align:center
+   }
+   .color-swatch-header .pass-fail-item.white .example {
+    color:#fff
+   }
+   .color-swatch-header .pass-fail-item.small .example {
+    font-size:10px
+   }
+   .color-swatch-header .pass-fail-item .lozenge {
+    font-size:11px;
+    font-weight:600;
+    line-height:10px;
+    padding:2px 4px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:#fff;
+    border-radius:4px;
+    background:#000
+   }
+   .color-swatch-body {
+    position:relative;
+    left:50%;
+    float:left;
+    padding:10px 0;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%)
+   }
+   .color-swatch-body .prop-item-wrap {
+    float:left;
+    min-width:65px;
+    padding:0 15px
+   }
+   .color-swatch-body .prop-item {
+    padding:15px 0
+   }
+   .color-swatch-body .prop-item .label {
+    font-size:11px;
+    line-height:16px;
+    text-transform:uppercase;
+    color:#62748c
+   }
+   .color-swatch-body .prop-item .value {
+    font-size:14px
+   }
+   .table-colors {
+    font-size:16px;
+    font-weight:600;
+    width:100%
+   }
+   .table-colors:first-child td,
+   .table-colors:first-child td:first-child,
+   .table-colors:first-child td:last-child,
+   .table-colors td,
+   .table-colors td:first-child,
+   .table-colors td:last-child {
+    padding:10px;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    background:hsla(0,0%,100%,.9)
+   }
+   .table-colors:first-child tr:last-child td,
+   .table-colors tr:last-child td {
+    border-bottom:none
+   }
+   .table-colors:first-child td:first-child,
+   .table-colors td:first-child {
+    line-height:40px
+   }
+   .table-colors .swatch,
+   .table-colors:first-child .swatch {
+    display:inline-block;
+    float:left;
+    width:40px;
+    height:40px;
+    margin-right:20px;
+    border:1px solid transparent;
+    border-radius:4px
+   }
+   .table-colors .swatch.is-light,
+   .table-colors:first-child .swatch.is-light {
+    border-color:#c1c7d0
+   }
+   .table-colors .lozenge,
+   .table-colors:first-child .lozenge {
+    font-size:10px;
+    font-weight:600;
+    line-height:10px;
+    display:inline-block;
+    float:left;
+    margin:5px 10px 0 0;
+    padding:2px 4px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:#042a53;
+    border-radius:4px;
+    background:#97a0af
+   }
